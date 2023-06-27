@@ -1,0 +1,25 @@
+body {
+    
+}
+
+.flex_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 10em);
+    grid-template-rows: repeat(3, 10em);
+}
+
+.square {
+    font-size: 5em;
+    border: 0.2rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
